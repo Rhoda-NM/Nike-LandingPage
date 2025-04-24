@@ -36,6 +36,15 @@ export default {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
       },
+      animation: {
+        fadeIn: 'fadeIn 0.5s ease-in-out forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
       screens: {
         "wide": "1440px"
       }
